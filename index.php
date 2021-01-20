@@ -65,6 +65,7 @@ array_push($consecutive, "{$arr[$x]} + {$arr[$x+1]} + {$arr[$x+2]}");
 }
 return $consecutive;
 }
+echo "Q(7): <br>";
 var_dump(sum (array(2, 7, 7, 1, 8, 2, 7, 8, 7), 16));
 
 
